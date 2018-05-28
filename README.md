@@ -3,6 +3,37 @@
 
 High Performance PHP MTProto Proxy
 
+# How To Use
+Assign execute permissions
+        chmod +x mtpproxy.php
+ 
+Start the proxy, specifiying a secret seed and a port
+
+        ./mtproxyd pony 6666
+        
+This will print the Secret text
+Share the proxy, using the port, your IP and generated secret
+Host: 163.172.167.189
+Port: 6666
+Secret: 4b3e3c2f99046f92a61bab6775848577
+
+Quick link: https://t.me/proxy?server=163.172.167.189&port=6666&secret=4b3e3c2f99046f92a61bab6775848577
+
+
+Protip: start the proxy in a screen session to keep it always running
+
+# If have error on centos
+Exception:
+MadelineProto requires the xml extension to run. Try running sudo apt-get install php5.6-xml. in MadelineProto:1
+PHP Fatal error:
+Uncaught MadelineProto requires the xml extension to run. Try running sudo apt-get install php5.6-xml.
+thrown in MadelineProto on line 1
+  
+Run:
+   yum --enablerepo remi install php-xml
+   service httpd restart
+
+if can not run on php 5.6 change the php version
 
 ## License
 
