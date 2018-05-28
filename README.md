@@ -8,7 +8,7 @@ High Performance PHP MTProto Proxy
 
 MIT License
 
-Copyright (c) 2018 PHPMTProxy
+Copyright (c) 2018 PHP-MTPProxy
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
