@@ -3,6 +3,8 @@
 
 High Performance PHP MTProto Proxy
 
+# Channel Sponsor was added in telegram channel
+
 # How To Use
 Assign execute permissions
 
